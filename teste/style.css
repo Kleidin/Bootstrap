@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.nav {
+    top: 37.2%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    font-size: 17px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gold;
+    overflow-y: hidden;
+}
+
+.nav ul li {
+    color: white;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav ul li:last-child {
+    border-right: 0px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul li a:hover {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: #202020;
+    height: auto;
+    
+}
+
+main h2{
+    overflow-y: hidden;
+}
+
+aside {
+    background-color: rgb(50, 50, 50);
+    height: auto;
+    overflow-y: hidden;
+}
+
+footer {
+    background-color: black;
+    height: auto;
+    width: 100%;
+    position: relative;
+    color: white;
+    left: 15px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.galeria {
+    background: black;
+    margin-top: 5rem;
+    height: 360px;
+    width: 100%;
+    overflow-y: hidden;
+}
+.form{
+    overflow-y: hidden;
+    height: auto;
+}
+
+main h5{
+    overflow-y: hidden;
+}
+.form input {
+    margin-left: 2%;
+    width: 97%;
+    height: 45px;
+    border: 4px solid gray;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin-top: 50px;
+    padding: 0 0 0 10px;
+}
+
+.dicas {
+    margin-top: 5%;
+}
+
+.card {
+    border: 4px solid gold;
+    height: auto;
+    margin-top: 5%;
+}
+
+.card-tittle {
+    color: black;
+}
+
+.w-100 {
+    width: 60%;
+    height: 200px;
+    margin: 2%;
+}
+
+.historia {
+    color: white;
+}
+
+.one {
+    font-size: 35px;
+    color: white;
+}
+
+.shanks {
+    position: relative;
+    right: 0;
+    width: 50%;
+    height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+.luffy {
+    position: relative;
+    top: -180px;
+    left: 200px;
+    width: 50%;
+    height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+.negra {
+    position: relative;
+    right: 200px;
+    width: 48.5%;
+    height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+.buggy {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    top: -180px;
+    height: 180px;
+    transition: all .5s;
+    border: 10px solid transparent;
+}
+
+
+.mu {
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: none;
+    transition: box-shadow 0.1s;
+    color: white;
+    border: 4px solid white;
+}
+
+.mu:hover {
+    border: 3px solid red;
+    color: red;
+    box-shadow: 0px 0px 35px red, 0px 0px 15px red inset;
+    text-shadow: 0px 0px 10px red, 0px 0px 3px red;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: none;
+    transition: box-shadow 0.1s;
+    color: #202020;
+    border: 4px solid #202020;
+}
+
+button:hover {
+    border: 3px solid gold;
+    color: gold;
+    box-shadow: 0px 0px 35px gold, 0px 0px 15px gold inset;
+    text-shadow: 0px 0px 10px gold, 0px 0px 3px gold;
+}
